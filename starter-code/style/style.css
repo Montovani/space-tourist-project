@@ -1,0 +1,45 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background: url("../assets/home/background-home-desktop.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFFFFF;
+}
+h1 {
+    font-family: 'Bellefair', serif;
+}
+h2 {
+    font-family: 'Bellefair', serif;
+}
+h3 {
+    font-family: 'Bellefair', serif;
+}
+h4 {
+    font-family: 'Bellefair', serif;
+}
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Navbar */
+.main-nav {
+    display:flex;
+    align-items: center;
+}
+.outsite-logo {
+    width: 48px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+}
+.nav-left{
+    display:flex;
+    justify-content: left;
+}
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
