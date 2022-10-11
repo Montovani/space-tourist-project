@@ -24,9 +24,14 @@ h5 {
 }
 
 /* Navbar */
-.main-nav {
-    display:flex;
+.nav-main {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 3.4375em;
+    margin-top: 2.5em;
+    margin-bottom: 15.68em;
+
 }
 .outsite-logo {
     width: 48px;
@@ -35,11 +40,33 @@ h5 {
     border-radius: 40px;
 }
 .nav-left{
-    display:flex;
-    justify-content: left;
+    display: flex;
+    justify-content: right;
+   
 }
 .nav-right {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: flex-end;
+    margin-right: 10.31em;
+}
+.nav-item{
+    margin-left: 3em;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+.rectangle-nav {
+    display: flex;
+    width: 860px;
+    height: 90px;
+    position: absolute;
+    top: 20px;
+    right: 1px;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+    -webkit-box-shadow: 7px 10px 5px -4px rgba(0,0,0,0.21);
+    -moz-box-shadow: 7px 10px 5px -4px rgba(0,0,0,0.21);
+    box-shadow: 7px 10px 5px -4px rgba(0,0,0,0.21);
 }
